@@ -1,0 +1,87 @@
+body{
+	font-family: Nunito Sans;
+	background-image: url(./assets/background-image1.png);
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
+table{
+	border-collapse: collapse;
+	font-size: 17px;
+	width: 760px;
+	height: 360px;
+	background: snow;
+	margin-left: 80px;
+}
+a{
+	text-decoration:none;
+	color: cornflowerblue;
+}
+#Cricpro{
+	width: 100px;
+	height: 30px;
+	}
+#div1{
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 50px;
+}
+#div2{
+	font-size: 35px;
+	text-shadow: 2px 2px 4px grey;
+	padding-left: 80px;
+}	
+#div3{
+	color: grey;
+	padding-left: 80px;
+	font-size: 20px;
+}
+#row1{
+	background-color: orangered;
+	color: white;
+	padding-top: 10x;
+	padding-bottom: 10px;
+	}
+#row2,#row3,#row4,#row5,#row6,#row7,#row8,#row9,#row10,#row11{
+	border-bottom: 1px solid lightgrey;
+	}	
+
+#data31,#data41,#data51,#data61,#data71,#data81
+{
+padding-right:100px;
+}
+
+#total2,#data92{
+	padding-left: 25px;
+}
+
+#data22,#data23,#data33,#data43,#data53,#data63,#data73,#data83,
+#data24,#data34,#data44,#data54,#data64,#data74,#data84,
+#data25,#data35,#data45,#data55,#data65,#data75,#data85,
+#data26,#data36,#data46,#data56,#data66,#data76,#data86,
+#data37,#data47,#data57,#data67,#data77,#data87
+{
+	padding-left: 25px;
+	text-align: center;
+	}
+#data32,#data42,#data52,#data62,#data72,#data82{
+	color: grey;
+	}
+#data11,#data12,#data21,#data31,#data41,#data51,#data61,#data71,#data81,#data91,#data32,#data42,#data52,#data62,#data72,#data82,#total1,#dnb1{
+	padding-left: 20px;
+	}
+#data12,#data26,#data37,#data47,#data57,#data67,#data77,#data87	{
+	padding-right: 30px;
+}
+/* change the font family and spacing as per your project font */
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top: 30px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+    font-style: normal;
+ }
